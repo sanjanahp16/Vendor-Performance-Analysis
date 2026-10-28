@@ -1,15 +1,18 @@
 # Vendor Performance Analysis Dashboard
 
 ## Project Overview
-This Power BI dashboard analyzes vendor sales, purchases, profit margins, and brand performance.
+This project analyzes vendor sales, purchases, gross profit, profit margins, and brand performance using SQL, Power BI, Python, and Excel. It helps identify high-performing vendors, underperforming vendors, sales concentration, and potential procurement inefficiencies.
 
-## Tools Used
-- Power BI
-- SQL
-- Python
-- Excel
+Python automation scripts are included to streamline repetitive data-processing tasks and improve the analysis workflow.
 
-## Key Metrics
+## Tools and Technologies
+- Power BI — Interactive dashboards and business reporting
+- SQL — Data querying, aggregation, and analysis
+- Python (Pandas) — Data processing, validation, and automation
+- Excel — Data inspection and supporting analysis
+- DAX & Power Query — KPI calculations, data transformation, and reporting
+
+## Key Performance Indicators (KPIs)
 - Total Sales
 - Total Purchase
 - Gross Profit
@@ -30,10 +33,19 @@ This Power BI dashboard analyzes vendor sales, purchases, profit margins, and br
 - Vendor Scorecard
 - Vendor Contribution %
 
-## Insights
-- DIAGEO NORTH AMERICA INC is the top vendor.
+### Python Automation
+- Python scripts support repetitive data-processing tasks within the analysis workflow.
+- Automate recurring data-processing steps
+- Process and analyze transaction data using Pandas
+- Support data cleaning and validation
+- Reduce repetitive manual operations
+- Prepare data for downstream analysis and reporting
+
+## Key Business Insights
+- DIAGEO NORTH AMERICA INC is the top vendor by sales.
 - MARTIGNETTI COMPANIES ranks second in sales.
-- Several vendors have low profit contribution despite high purchases.
+- Some vendors have relatively low profit contributions despite high purchase values.
+- Vendor-level KPIs help highlight sales concentration and potential procurement inefficiencies.
 
 ## Dashboard Screenshots
 
